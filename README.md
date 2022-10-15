@@ -60,3 +60,8 @@ In jupyter open the script: notebooks/Salar_Uyuni_GPSL1.ipynb for analysing the 
 
 - Kristine M. Larson
 
+## Observations
+
+list -> code cleaning
+list -> delete functions with nono available functions
+todo -> delete not used functions
