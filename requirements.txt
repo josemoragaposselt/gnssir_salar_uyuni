@@ -1,0 +1,5 @@
+jupyter
+numpy
+pandas
+seaborn
+git+https://github.com/kristinemlarson/gnssrefl.git
