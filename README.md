@@ -32,6 +32,30 @@ Here is possible to see a correlation between the reflected signals and the soil
 
 The code implemented for carring out this study was taken from: https://www.unavco.org/gitlab/gnss_reflectometry/gnssrefl_jupyter
 
+## Run the scripts
+
+### on Ubuntu
+
+sudo apt-get install -y gcc
+sudo apt-get install -y gfortran
+
+clone the repository of GNSS IR inside a folder: git clone https://github.com/kristinemlarson/gnssrefl
+cd into that directory, set up a virtual environment, a la python3 -m venv env
+pip3 install wheel
+pip3 install .
+
+- Jupyter Notebook is necessary https://jupyter.org/
+
+### Run the program
+
+Open a terminal:
+
+- clone this project: git clone https://github.com/josemoragaposselt/gnssir_salar_uyuni
+- go into the folder where you clone the project (cd folder)
+- open jupyter: jupyter notebook
+
+In jupyter open the script: notebooks/Salar_Uyuni_GPSL1.ipynb for analysing the L1 frequencies or notebooks/Salar_Uyuni_GPSL2.ipynb for analyzing the L2 frequencies.
+
 ## acknowledgment
 
 - Kristine M. Larson
